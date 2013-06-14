@@ -18,4 +18,24 @@ class AngularController extends Controller
 		$this->layout = false;
 		$this->render('one');
 	}
+	
+	public function actionGetlist() {
+		$this->layout = false;
+		$model = new Pages();
+		$res = $model->findAll();
+		echo CJSON::encode($res);
+	}
+	
+	public function actionGetone($id) {
+		$this->layout = false;
+		$model = new Pages();
+		$res = $model->findByPk($id);
+		echo CJSON::encode($res);
+	}
+	
+	public function actionUpdate() {
+		$this->layout = false;
+		$this->render('update');
+	}
+	
 }
