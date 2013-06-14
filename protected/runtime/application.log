@@ -1,0 +1,305 @@
+2013/06/14 11:02:19 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test.pages' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `pages`.
+in C:\virtualhost\test\angular\index.php (13)
+2013/06/14 11:07:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "crud".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('crud')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crud/
+---
+2013/06/14 11:07:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/06/14 11:07:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "crud".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('crud')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crud/
+HTTP_REFERER=http://localhost:8082/crud/
+---
+2013/06/14 11:07:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "crud/pages".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('crud/pages')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crud/pages
+---
+2013/06/14 11:07:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/06/14 11:07:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "crud/pages".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('crud/pages')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crud/pages
+HTTP_REFERER=http://localhost:8082/crud/pages
+---
+2013/06/14 11:08:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "crud/default/insex".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('crud/default/in...')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crud/default/insex
+---
+2013/06/14 11:08:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/06/14 11:08:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "crud/default/index".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('crud/default/in...')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crud/default/index
+---
+2013/06/14 11:08:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/06/14 11:08:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "crud/default/index".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('crud/default/in...')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crud/default/index
+HTTP_REFERER=http://localhost:8082/crud/default/index
+---
+2013/06/14 11:08:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "crud/default/index".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('crud/default/in...')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crud/default/index
+HTTP_REFERER=http://localhost:8082/crud/default/index
+---
+2013/06/14 11:08:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/06/14 11:09:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/06/14 11:09:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/06/14 11:09:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "crud/default/index".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('crud/default/in...')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crud/default/index
+---
+2013/06/14 11:09:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/06/14 11:09:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/06/14 11:09:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/06/14 11:09:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/06/14 11:09:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/06/14 11:09:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/06/14 11:09:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "crud/pages".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('crud/pages')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/crud/pages
+---
+2013/06/14 11:09:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/06/14 11:09:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "crud/pages".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('crud/pages')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/crud/pages
+HTTP_REFERER=http://localhost:8082/index.php/crud/pages
+---
+2013/06/14 11:10:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/06/14 11:10:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "crud/pages".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('crud/pages')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crud/pages
+---
+2013/06/14 11:10:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/06/14 11:10:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "crud/pages".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('crud/pages')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crud/pages
+HTTP_REFERER=http://localhost:8082/crud/pages
+---
+2013/06/14 11:12:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "crud/pages".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('crud/pages')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/?r=crud/pages
+---
+2013/06/14 11:12:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "crud/pages".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('crud/pages')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/?r=crud/pages
+HTTP_REFERER=http://localhost:8082/?r=crud/pages
+---
+2013/06/14 11:13:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/06/14 11:13:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/06/14 11:13:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/06/14 11:13:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/06/14 11:19:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/06/14 11:19:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
