@@ -303,3 +303,86 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/favicon.ico
 ---
+2013/06/14 12:02:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "crud/partials/pages-list.html".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('crud/partials/p...')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crud/partials/pages-list.html
+HTTP_REFERER=http://localhost:8082/crud/angular
+---
+2013/06/14 12:02:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "crud/partials/pages-list.html".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('crud/partials/p...')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crud/partials/pages-list.html
+HTTP_REFERER=http://localhost:8082/crud/angular
+---
+2013/06/14 12:02:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "crud/partials/pages-list.html".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('crud/partials/p...')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crud/partials/pages-list.html
+HTTP_REFERER=http://localhost:8082/crud/angular
+---
+2013/06/14 12:03:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "crud/partials/pages-list.html".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('crud/partials/p...')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crud/partials/pages-list.html
+HTTP_REFERER=http://localhost:8082/crud/angular
+---
+2013/06/14 12:03:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "crud/partials/pages-list.html".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('crud/partials/p...')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crud/partials/pages-list.html
+HTTP_REFERER=http://localhost:8082/crud/angular
+---
+2013/06/14 12:03:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "crud/partials/pages-list.html".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('crud/partials/p...')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crud/partials/pages-list.html
+HTTP_REFERER=http://localhost:8082/crud/angular
+---
+2013/06/14 12:03:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "crud/partials/pages-list.html".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('crud/partials/p...')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crud/partials/pages-list.html
+HTTP_REFERER=http://localhost:8082/crud/angular
+---
+2013/06/14 12:04:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "partials/pages-list.html".' in C:\virtualhost\test\angular\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('partials/pages-...')
+#1 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/partials/pages-list.html
+HTTP_REFERER=http://localhost:8082/crud/angular
+---
+2013/06/14 12:04:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in C:\virtualhost\test\angular\framework\web\CController.php:483
+Stack trace:
+#0 C:\virtualhost\test\angular\framework\web\CController.php(270): CController->missingAction('list')
+#1 C:\virtualhost\test\angular\framework\web\CWebApplication.php(282): CController->run('list')
+#2 C:\virtualhost\test\angular\framework\web\CWebApplication.php(141): CWebApplication->runController('crud/angular/li...')
+#3 C:\virtualhost\test\angular\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\virtualhost\test\angular\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/crud/angular/list
+HTTP_REFERER=http://localhost:8082/crud/angular
+---

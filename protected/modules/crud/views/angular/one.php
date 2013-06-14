@@ -1,0 +1,1 @@
+<span>Info of item</span>
